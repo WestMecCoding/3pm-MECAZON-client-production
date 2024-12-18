@@ -1,26 +1,73 @@
 // basic skeleton for login
 import styles from "../styles/UserForms.module.css";
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
+import baseURL from "../../baseURL";
 
 export default function Login() {
-    return (
-        <div className={styles.Form}>
-            <div className={styles.Brand}>
-                <img className={styles.Logo} src="/MECAZON_logo.svg" alt="MECAZON LOGO" /> MECAZON
-            </div>
-            <h1 className={styles.Header}>Log in</h1>
-            <form action="">
-                <label className={styles.Label} htmlFor="email">Email Address:</label> <br />
-                <input className={styles.Input} type="email" id="email" name="email" required /> <br /> <br />
+  const api = baseURL();
+  const navigate = useNavigate();
+  async function login(e) {
+    e.preventDefault();
+    const form = e.target;
+    let email = form.email.value;
+    let password = form.password.value;
+    try {
+      let response = await api.get(`/log-in/3pm-server-MECAZON/users/${email}/${password}`);
+      form.password.value = "";
+      if (response.status == 200) {
+        localStorage.setItem('currentUser', JSON.stringify(response.data));
+        navigate('/');
+        location.reload();
+      }
+    } catch (error) {
+      alert(error.response.data.error);
+    }
+  }
 
-                <label className={styles.Label} htmlFor="password">Password:</label> <br />
-                <input className={styles.Input} type="password" id="password" name="password" pattern="" required /> <br /> <br />
-
-                <button type="submit">Login</button>
-
-                <p className={styles.RegisterText}>New to MECAZON?</p>
-                <Link to="/register">Sign Up</Link>
-            </form>
-        </div>
-    );
+  return (
+    <div className={styles.Form}>
+      <div className={styles.Brand}>
+        <img
+          className={styles.Logo}
+          src="/MECAZON_logo.svg"
+          alt="MECAZON LOGO"
+        />{" "}
+        MECAZON
+      </div>
+      <h1 className={styles.Header}>Log in</h1>
+      <form onSubmit={login}>
+        <label className={styles.Label} htmlFor="email">
+          Email Address:
+        </label>{" "}
+        <br />
+        <input
+          className={styles.Input}
+          type="email"
+          id="email"
+          name="email"
+          required
+        />{" "}
+        <br /> <br />
+        <label className={styles.Label} htmlFor="password">
+          Password:
+        </label>{" "}
+        <br />
+        <input
+          className={styles.Input}
+          type="password"
+          id="password"
+          name="password"
+          required
+        />{" "}
+        <br /> <br />
+        <button type="submit">
+          Login
+        </button>
+        <p className={styles.RegisterText}>New to MECAZON?</p>
+        <Link to="/register">Sign Up</Link>
+        <p className={styles.RegisterText}>MECAZON Admin?</p>
+        <Link to="/admin">Admin</Link>
+      </form>
+    </div>
+  );
 }

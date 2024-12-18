@@ -33,7 +33,40 @@
     font-size: 1.3vw;
     margin: 0px;
 }
+
 .text2 {
     font-size: 0.8vw;
     margin: 0px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .banner {
+        flex-direction: column; /* Stack image and text column vertically */
+        padding: 2rem; /* Adjust padding for mobile */
+        align-items: center; /* Center all content */
+    }
+
+    .image {
+        width: 80%; /* Reduce image size on mobile */
+        margin-bottom: 1rem; /* Add spacing below the image */
+    }
+
+    .column {
+        width: 100%; /* Full width for the text column */
+        padding: 1rem; /* Reduce padding for smaller screens */
+        text-align: center; /* Center text alignment */
+    }
+
+    .title {
+        font-size: 1.2rem; /* Smaller font size for the title */
+    }
+
+    .text {
+        font-size: 0.9rem; /* Smaller font size for the text */
+    }
+
+    .text2 {
+        font-size: 0.7rem; /* Smaller font size for the footnote */
+    }
 }

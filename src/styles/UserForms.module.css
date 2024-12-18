@@ -18,6 +18,15 @@
     color: #f78e11;
     text-shadow: 0.25rem 0.25rem 1rem rgba(0,0,0,0.25);
 }
+.Brand h1 {
+    font-size: 3rem;
+}
+.Brand p{
+color: #508aa5;
+/* position: absolute; */
+/* font-size: 1.5rem; */
+
+}
 
 .Logo {
     width: 5rem;

@@ -1,0 +1,330 @@
+[
+  {
+    "id": 1,
+    "item": "Pens",
+    "category": "Educational Supplies",
+    "price_in_usd": 13.99,
+    "details": " 24 pack of medium point, black ink, retractable pens",
+    "product_img": "https://drive.google.com/file/d/1u81L9kmj6SvZkoW45CNzO3jNvfTmr0Rr/view?usp=drive_link"
+  },
+  {
+    "id": 2,
+    "item": "Notebooks",
+    "category": "Educational Supplies",
+    "price_in_usd": 4.09,
+    "details": "5 pack, 100 sheets, College ruled, composition notebook",
+    "product_img": "https://drive.google.com/file/d/1vtrGsq-MOrK0qS-zvqYMO5F1C0U33Z4p/view?usp=drive_link"
+  },
+  {
+    "id": 3,
+    "item": "Tool Supply Kit",
+    "category": "Educational Supplies",
+    "price_in_usd": 18.79,
+    "details": "100 sheet wide ruled composition notebook, 2 70-sheet spiral notebooks, pencil pouch, yellow pencils, pencil sharpener, 3 highlighters, 10 crayons, 5 inch blunt three-finger scissors, glue sticks, 12 inch plastic ruler, four pink wedge erasers, two two-pocket folders, color pencils, 5 pens",
+    "product_img": "https://drive.google.com/file/d/17JAeci2NHeRQWhiVxcTjajwLW1DENimz/view?usp=drive_link"
+  },
+  {
+    "id": 4,
+    "item": "Calculator",
+    "category": "Educational Supplies",
+    "price_in_usd": 218.47,
+    "details": "Black/white Texas Instruments TI-84 PLUS CE graphing calculator",
+    "product_img": "https://drive.google.com/file/d/1zmh47jREHZfwRahzGrg3TtTm-IgNGd-B/view?usp=drive_link"
+  },
+  {
+    "id": 5,
+    "item": "Backpack",
+    "category": "Educational Supplies",
+    "price_in_usd": 38,
+    "details": "JanSport student backpack solid black, two large compartments",
+    "product_img": "https://drive.google.com/file/d/1B7u-3AzklqIB_6NIvdJ0xhuuRxMSXPtk/view?usp=drive_link",
+    "colorArr": ["white", "blue", "red", "green"]
+  },
+  {
+    "id": 6,
+    "item": "Coloring Pencils",
+    "category": "Educational Supplies",
+    "price_in_usd": 13.36,
+    "details": "Crayola, 50 twistable colored pencils, no sharpening or peeling, plastic barrel to help prevent damage",
+    "product_img": "https://drive.google.com/file/d/1ZKSTSibmrRTjrWaouqq0PLpMCabHyicy/view?usp=drive_link"
+  },
+  {
+    "id": 7,
+    "item": "Markers",
+    "category": "Educational Supplies",
+    "price_in_usd": 3.49,
+    "details": "10 pack Crayola markers, broad line, assorted colors, won't smudge or bleed through paper",
+    "product_img": "https://drive.google.com/file/d/1bcX77xhENQYs_HECf_Bh5wF8_VhHixp9/view?usp=drive_link"
+  },
+  {
+    "id": 8,
+    "item": "Pencil Pouch",
+    "category": "Educational Supplies",
+    "price_in_usd": 15.99,
+    "details": "Black, two compartments, hold up to 70 pencils and pens, durable material",
+    "product_img": "https://drive.google.com/file/d/1_Q3byMInhkVzPfEHvW9moU00nJO9kgZf/view?usp=drive_link"
+  },
+  {
+    "id": 9,
+    "item": "Desk",
+    "category": "Office Supplies",
+    "price_in_usd": 64.47,
+    "details": "Black, modern design, home computer desk",
+    "product_img": "https://drive.google.com/file/d/1NioNXnQus7ZuJVjIXA442pht9GpoPrqY/view?usp=drive_link"
+  },
+  {
+    "id": 10,
+    "item": "File Cabinet",
+    "category": "Office Supplies",
+    "price_in_usd": 139.98,
+    "details": "Vertical, 4 drawer, lockable, metal, smooth/ slender surface",
+    "product_img": "https://drive.google.com/file/d/1lmDzmuauqO8HjqsR1ZhafceyKD7wxkGL/view?usp=drive_link"
+  },
+  {
+    "id": 11,
+    "item": "Office Seating Chair",
+    "category": "Office Supplies",
+    "price_in_usd": 74.99,
+    "details": "Guest chair features mesh back and fabric seat along with four leg design with molded arm rest",
+    "product_img": "https://drive.google.com/file/d/1q9ahpRyJSsvWefxyu9vwafix_RQV5sOq/view?usp=drive_link"
+  },
+  {
+    "id": 12,
+    "item": "Shelving Unit",
+    "category": "Office Supplies",
+    "price_in_usd": 159.99,
+    "details": "5 tier, 60 inches tall, modern, sturdy material for up to 105 pounds per shelf",
+    "product_img": "https://drive.google.com/file/d/1uLCvNmy3403bjZZBZ5a2Mf4aU6nt8xK8/view?usp=drive_link"
+  },
+  {
+    "id": 13,
+    "item": "Lamp",
+    "category": "Office Supplies",
+    "price_in_usd": 26.99,
+    "details": "Metal desk lamp with clamp, swing arm, extend up to 18 inches and the rotatable base and shade, clamp it onto any surface either vertical or horizontal up to 2 inches wide",
+    "product_img": "https://drive.google.com/file/d/1lZCncE1mlI2KAA1h3WIrIy2M0_p7R0eF/view?usp=drive_link"
+  },
+  {
+    "id": 14,
+    "item": "White Board",
+    "category": "Office Supplies",
+    "price_in_usd": 30.08,
+    "details": "Magnetic dry erase whiteboard, 36 x 24-inch, aluminum frame, silver/white, includes: 1 whiteboard marker, 2 magnets, and 1 pen tray",
+    "product_img": "https://drive.google.com/file/d/1PIjnb1fGXx7607O8ZKffv0P2Bv4AvFHO/view?usp=drive_link"
+  },
+  {
+    "id": 15,
+    "item": "Electric Standing Desk",
+    "category": "Office Supplies",
+    "price_in_usd": 229.99,
+    "details": "All black, height adjustable electric standing desk, 48 x 24 inches sit stand up desk, freely select electric standing desk height, from 28.35 inches to 46.46 inches",
+    "product_img": "https://drive.google.com/file/d/1p0aZLkUUrf1VZ3qiPjCM1035NKNYJnoJ/view?usp=drive_link"
+  },
+  {
+    "id": 16,
+    "item": "Office Chair",
+    "category": "Office Supplies",
+    "price_in_usd": 141.16,
+    "details": "Ergonomic mesh office chair, high back desk chair with 3D armrests, up & down lumbar support, swivel computer task chair with adjustable 2D headrest, tilt function black",
+    "product_img": "https://drive.google.com/file/d/1HCAM0nRxQdn9yEcVu9sgw6T76pRcgoJl/view?usp=drive_link"
+  },
+  {
+    "id": 17,
+    "item": "Computer (PC)",
+    "category": "Electronics",
+    "price_in_usd": 1899.99,
+    "details": "14th Gen Intel Core i5-14600KF Processor: Experience unparalleled power with 14-core, 20-way processing and Intel Turbo Boost technology, delivering dynamic performance when you need it and energy efficiency when you don't, 32GB System Memory: Perfect for intense multitasking and gaming, with high-bandwidth DDR5 RAM to smoothly run graphics-heavy PC games",
+    "product_img": "https://drive.google.com/file/d/1OO6nSsRZzxJ279Hwx0fOhxi_sbeLvqbj/view?usp=drive_link"
+  },
+  {
+    "id": 18,
+    "item": "Laptop",
+    "category": "Electronics",
+    "price_in_usd": 150,
+    "details": "Lenovo Slim 14 inch Chromebook",
+    "product_img": "https://drive.google.com/file/d/1DYY093r9GPAF18hOcsdSzHQRiBeCqRlI/view?usp=drive_link"
+  },
+  {
+    "id": 19,
+    "item": "Speakers",
+    "category": "Electronics",
+    "price_in_usd": 34.99,
+    "details": "Kanto YU6 2-Way powered speakers with Bluetooth and Phono Preamp, includes a remote to give you full control over your audio, matte white",
+    "product_img": "https://drive.google.com/file/d/1XF9U6X3dRks5danhAfNKnLNUNe18TtZ8/view?usp=drive_link",
+    "colorArr": ["white", "blue", "red", "green"]
+  },
+  {
+    "id": 20,
+    "item": "Keyboard",
+    "category": "Electronics",
+    "price_in_usd": 129.99,
+    "details": "Silver, wireless Bluetooth keyboard promotes workplace efficiency, long-lasting rechargeable battery",
+    "product_img": "https://drive.google.com/file/d/1UpSwMUJcY4vImqqLr18Iyo831YxLHURh/view?usp=drive_link",
+    "colorArr": ["white", "blue", "red", "green"]
+  },
+  {
+    "id": 21,
+    "item": "Mouse",
+    "category": "Electronics",
+    "price_in_usd": 14.99,
+    "details": "designed to fit the palm of either of your hands so you feel minimal strain even after hours of clicking, scrolling and selecting",
+    "product_img": "https://drive.google.com/file/d/1IEKRWodFf8aOPLRMIv_WGZ0Xwy1dnKwu/view?usp=drive_link",
+    "colorArr": ["white", "blue", "red", "green"]
+  },
+  {
+    "id": 22,
+    "item": "Moniters",
+    "category": "Electronics",
+    "price_in_usd": 159.99,
+    "details": "LCD monitor with 24 inch screen for your viewing pleasure, 1920 x 1080 screen resolution delivers excellent detail, ensures image accuracy and consistency across wide horizontal and vertical viewing angles",
+    "product_img": "https://drive.google.com/file/d/12DAKoirt7mSP3YEnto5JZOQlnQMjeJS6/view?usp=drive_link"
+  },
+  {
+    "id": 23,
+    "item": "Headphones",
+    "category": "Electronics",
+    "price_in_usd": 49.99,
+    "details": "Over-the-ear headphones, elimnate room noise, provides soft comfortable fit for hours of listening",
+    "product_img": "https://drive.google.com/file/d/15m1jfNaou-CegpurgVET1ABMM9aWbe_a/view?usp=drive_link",
+    "colorArr": ["white", "blue", "red", "green"]
+  },
+  {
+    "id": 24,
+    "item": "Tablet",
+    "category": "Electronics",
+    "price_in_usd": 819.99,
+    "details": "Samsung Tab S9 Galaxy Tab 11 iinch tablet, WiFi, 128GB, Android, gray",
+    "product_img": "https://drive.google.com/file/d/1fFJ3jDTAPu6cnUAmlFVKRuSedF5X-Kxg/view?usp=drive_link"
+  },
+  {
+    "id": 25,
+    "item": "Fruit Snacks",
+    "category": "Snacks, Games, Gifts",
+    "price_in_usd": 8.48,
+    "details": "Includes 40 single serve bags, delicious fruit snacks where fruit is the 1st ingredient, excellent source of vitamins A, C, & E",
+    "product_img": "https://drive.google.com/file/d/1-n6VQvoDzqKUo9EjXxVbQagjLmERrwbm/view?usp=drive_link"
+  },
+  {
+    "id": 26,
+    "item": "Lays Variety Pack",
+    "category": "Snacks, Games, Gifts",
+    "price_in_usd": 21.86,
+    "details": "Includes 40 (1 oz) bags of Lay's Potato Chips: (10) Barbecue, (10) Sour Cream & Onion, (10) Classic, and (10) Salt and Vinegar",
+    "product_img": "https://drive.google.com/file/d/19eONzR3XUCY5c-Rcds3I3N1pbF3EiJYN/view?usp=drive_link"
+  },
+  {
+    "id": 27,
+    "item": "Nutrition Variety Pack",
+    "category": "Snacks, Games, Gifts",
+    "price_in_usd": 16.77,
+    "details": "Apple Cinnamon, Blueberry, or Strawberry-flavored bars, 8g of whole grain in every 37g serving, Nutri-Grain bars are also a good source of eight vitamins and minerals. Nutri-Grain bars are travel-ready, and make a perfectly sized accompaniment to backpacks, tote bags; pack long for busy, on-the-go moments",
+    "product_img": "https://drive.google.com/file/d/19QPupUc5rS2Yz0SY_dbuXaE94UNLygMC/view?usp=drive_link"
+  },
+  {
+    "id": 28,
+    "item": "Exlusive Bundle of Board Games",
+    "category": "Snacks, Games, Gifts",
+    "price_in_usd": 42.65,
+    "details": "Classic Connect 4, Classic Sorry!, & Classic Trouble",
+    "product_img": "https://drive.google.com/file/d/1c9KxBh8dxlF9mwnaAOfXVrOOQXkh6_cP/view?usp=drive_link"
+  },
+  {
+    "id": 29,
+    "item": "Portabel Gaming System",
+    "category": "Snacks, Games, Gifts",
+    "price_in_usd": 26.13,
+    "details": "Portable gaming system with 220 games, 2.5 inch color display, pocket size (DGUN-3911), black",
+    "product_img": "https://drive.google.com/file/d/1j5AWJFNs4Q6O_Skh3o4c20ML9G-eh5AQ/view?usp=drive_link"
+  },
+  {
+    "id": 30,
+    "item": "Gift Card",
+    "category": "Snacks, Games, Gifts",
+    "price_in_usd": 206.95,
+    "details": "Visa $200 Gift Card (plus $6.95 Purchase Fee)",
+    "product_img": "https://drive.google.com/file/d/1tIpWIuP_WG3ygx4o5Z6OqQ7S9tWDMwqj/view?usp=drive_link"
+  },
+  {
+    "id": 31,
+    "item": "Rubiks Cube",
+    "category": "Snacks, Games, Gifts",
+    "price_in_usd": 9.99,
+    "details": "Rubik's Cube, the original 3x3 cube 3D puzzle fidget cube stress relief fidget toy brain teasers travel games for adults and kids ages 8+",
+    "product_img": "https://drive.google.com/file/d/1KRSlBA3ecVs-RJ6NEBeHQ59tW4yRryBN/view?usp=drive_link"
+  },
+  {
+    "id": 32,
+    "item": "Uno Card Game",
+    "category": "Snacks, Games, Gifts",
+    "price_in_usd": 10.99,
+    "details": "UNO tin comes with 112 cards and instructions in a sturdy tin that's great for storage and travel",
+    "product_img": "https://drive.google.com/file/d/1E3_HO1aaUdGLh-lqc9O30YqoGcxu4WrT/view?usp=drive_link"
+  },
+  {
+    "id": 33,
+    "item": "Suitcase",
+    "category": "Travel Supplies and Luggage",
+    "price_in_usd": 179.99,
+    "details": "Expandable Checked Luggage: With 23 x 16.75 x 11.25 inches of packing space, this rolling suitcase is the perfect size for any trip; At only 26.25 x 18 x 11.25 inches overall, it fits all your travel essentials without the extra bulk",
+    "product_img": "https://drive.google.com/file/d/1zIdAmVHUwUKiq1oOMojk9w8vrHa0kpD1/view?usp=drive_link",
+    "colorArr": ["white", "blue", "red", "green"]
+  },
+  {
+    "id": 34,
+    "item": "Travel Bag",
+    "category": "Travel Supplies and Luggage",
+    "price_in_usd": 39.99,
+    "details": "faux leather fabric and is lined with a nylon interior; This bag features interior zippered pocket, removable and adjustable shoulder strap; Dimensions are 22 inch x 13 inch x 10",
+    "product_img": "https://drive.google.com/file/d/1dGQuSn6dybk2RJXKwX6nWVfodxSH0u3L/view?usp=drive_link"
+  },
+  {
+    "id": 35,
+    "item": "Duffle Bag",
+    "category": "Travel Supplies and Luggage",
+    "price_in_usd": 45,
+    "details": "Adjustable shoulder strap, durable polyester / water-resistant base material to keep your stuff dry",
+    "product_img": "https://drive.google.com/file/d/1YQD3MxO0VPiN_Xxn-vtQnLTNaOgxp0gl/view?usp=drive_link"
+  },
+  {
+    "id": 36,
+    "item": "Travel Backpack",
+    "category": "Travel Supplies and Luggage",
+    "price_in_usd": 99.99,
+    "details": "Removable lid with zippered pockets, autolock buckles prevent slippage, bottom, front and side compression straps, top-loading shroud, multiple compartments",
+    "product_img": "https://drive.google.com/file/d/1p8-nsckJbjCiBb5ujtAnYco3ko6dx7eW/view?usp=drive_link"
+  },
+  {
+    "id": 37,
+    "item": "Neck Pillow",
+    "category": "Travel Supplies and Luggage",
+    "price_in_usd": 11.87,
+    "details": "Memory foam neck pillow for head, neck, and shoulder support; dark gray; Ideal for plane rides, road trips, or simply relaxing at home; Soft plush cover with zipper closure for removable convenience; Built-in elastic strap for easily attaching to outside of carry-on",
+    "product_img": "https://drive.google.com/file/d/17fq2yw3fUDxTAA0ZqnCKBjte2tMMap4Z/view?usp=drive_link",
+    "colorArr": ["white", "blue", "red", "green"]
+  },
+  {
+    "id": 38,
+    "item": "Passport Holder",
+    "category": "Travel Supplies and Luggage",
+    "price_in_usd": 21.99,
+    "details": "Highest quality leather, designed to fit perfectly with your passport, vaccine card and other travel documents; You can store your passport, ticket, and various travel documents, making it the perfect accessory to take with you when you travel",
+    "product_img": "https://drive.google.com/file/d/17CGanFbq_8oJlZnkEKUzGwSC14lM1MaF/view?usp=drive_link"
+  },
+  {
+    "id": 39,
+    "item": "Eye Mask",
+    "category": "Travel Supplies and Luggage",
+    "price_in_usd": 12.99,
+    "details": "100% Mulberry silk on both sides, and 100% silk filling; Natural Mulberry Silk--Our 8.3 inch x3.5 inch silk eye mask is made of top quality 19mm natural mulberry silk; It not only feel smooth against your skin but are also hypoallergenic, great for those with sensitive skin",
+    "product_img": "https://drive.google.com/file/d/16PUgcGplaNjgS7tsyiKcpCLr35SMvgdQ/view?usp=drive_link",
+    "colorArr": ["white", "blue", "red", "green"]
+  },
+  {
+    "id": 40,
+    "item": "Laptop Travel Bag",
+    "category": "Travel Supplies and Luggage",
+    "price_in_usd": 32.99,
+    "details": "Resistant material, multi-compartment organizer, comfy and lightweight, stylish design (leather)",
+    "product_img": "https://drive.google.com/file/d/1WqXdhZI5R2-R4XzBWFfLDSslfqFdaf7r/view?usp=drive_link"
+  }
+]

@@ -5,6 +5,8 @@
     color: white;
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
+    width: 100%;
+    max-width: 200px;
 }
 
 .emailInput {
@@ -14,13 +16,14 @@
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
     margin-bottom: 0.25rem;
+    width: 100%;
+    max-width: 200px;
 }
 
 .background {
     background-color: #0e3249;
     color: #f78e11;
     padding-bottom: 1rem;
-    /* max-height: 12rem; */
 }
 
 .divider {
@@ -46,6 +49,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap; /* Enable wrapping for mobile screens */
 }
 
 .row a:hover{
@@ -56,6 +60,11 @@
     text-align: center;
     display: flex;
     flex-direction: column;
+    margin: 1rem; /* Add spacing between columns */
+}
+
+.column h1 {
+    font-size: 1.5rem; /* Default header size */
 }
 
 .column p {
@@ -97,4 +106,55 @@
     color: #508aa5;
     width: 100%;
     text-align: center;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column; /* Stack rows on mobile screens */
+        align-items: center; /* Center all items */
+    }
+
+    .divider {
+        height: 0.1rem; /* Change to horizontal divider for mobile */
+        width: 80%; /* Adjust width */
+        margin: 1rem 0; /* Add spacing */
+    }
+
+    .divider_spaced {
+        height: 0.1rem; /* Horizontal divider */
+        width: 80%; /* Adjust width */
+        margin: 1rem 0; /* Add spacing */
+        transform: none; /* Reset transform */
+    }
+
+    .column {
+        margin: 1rem 0; /* Add spacing between sections */
+        width: 100%; /* Full width on mobile */
+        max-width: 400px; /* Limit maximum width */
+        align-items: center; /* Center column content */
+    }
+
+    .column h1 {
+        font-size: 1.2rem; /* Smaller header size on mobile */
+    }
+
+    .dataColumn {
+        align-items: center; /* Center social links */
+    }
+
+    .column_spaced {
+        width: 100%; /* Full width */
+        flex-direction: column; /* Stack items */
+        align-items: center; /* Center content */
+    }
+
+    .socials {
+        text-align: center; /* Center social links */
+    }
+
+    .copyrights {
+        text-align: center; /* Center copyright text */
+        margin-top: 1rem;
+    }
 }

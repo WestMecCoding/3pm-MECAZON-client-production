@@ -1,0 +1,65 @@
+/* EmployeeList.module.css */
+body {
+  margin: 0;
+  padding: 0;
+}
+/* Table styles */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+th, td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+td {
+  background-color: #fff;
+}
+
+tr:nth-child(even) td {
+  background-color: #f9f9f9;
+}
+
+/* Header */
+h1 {
+  text-align: left;
+  /* padding: 2rem 0 0 0; */
+  /* float: left; */
+}
+/* .employee-header {
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+} */
+.add-employee {
+  /* text-align: right; */
+  background-color: #508aa5;
+  color: white;
+  border-radius: 15px;
+  border: none;
+  height: 4vh;
+  width: 8vw;
+  position: fixed;
+  right: 1rem;
+  top: 4.5rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  th, td {
+    padding: 8px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}

@@ -1,50 +1,30 @@
 import { useEffect, useState } from "react";
 import styles from "../styles/Home.module.css";
 import Carousel from "../components/Carousel";
-import axios from "axios";
+import baseURL from "../../baseURL";
 
-export default function Home({ setModalData }) {
-  // const api = axios.create({
-  //   baseurl: import.meta.env.VITE_API_URI_DEV
-  // });
-  // const getdata = async () => {
-  //   const response = await api.get('/api-endpoint')
-  //   console.log(response);
-  //   return response.data;
-  // }
-
-  // useEffect(()=>{
-  //   getdata();
-  // },[]);
-
-  const [groceries, setGroceries] = useState([]);
-  useEffect(() => {
-    async function fetchGroceries() {
-      try {
-        const response = await axios.get("/dummy-data/groceries.json");
-        setGroceries(response.data);
-      } catch (err) {
-        console.error("something went wrong fetching groceries", err);
-      }
+export default function Home({setModalData}) {
+  const api = baseURL();
+  
+  const [products, setProducts] = useState([]);
+  
+  useEffect(()=>{
+    const getdata = async () => {
+      const response = await api.get("/find/3pm-client-MECAZON/products");
+      let data = response.data;
+      console.log(data);
+      setProducts(data);
+      return response.data;
     }
-    fetchGroceries();
-  }, []);
+    getdata();
+  },[]);
 
-  return (
-    <>
-      <Carousel
-        count={
-          Math.ceil(self.innerWidth / 200) < 10
-            ? Math.ceil(self.innerWidth / 200)
-            : 10
-        }
-        setModalData={setModalData}
-        data={groceries}
-      />
-      <div className={styles.banner}>
+  return <>
+    <Carousel count={Math.ceil(self.innerWidth/200)<10?Math.ceil(self.innerWidth/200):10} setModalData={setModalData} data={products}/>
+    <div className={styles.banner}>
         <img
           className={styles.image}
-          src="./public/homeAd.PNG"
+          src="/homeAd.PNG"
           alt="Black Man"
           draggable="false"
         />
@@ -61,6 +41,5 @@ export default function Home({ setModalData }) {
           <p className={styles.text2}>*May blow up</p>
         </div>
       </div>
-    </>
-  );
+  </>;
 }

@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* .list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: auto;
+} */
+
+/* .item {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 0.5rem;
+  width: calc(30% - 1rem);
+  border-radius: 10%;
+  background-color: lightcoral;
+} */
+
+/* Table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+th, td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+td {
+  background-color: #fff;
+}
+
+tr:nth-child(even) td {
+  background-color: #f9f9f9;
+}
+
+h1 {
+  text-align: left;
+  /* padding: 2rem 0 0 0; */
+  /* float: left; */
+}
+/* Button */
+.add-user {
+  /* text-align: right; */
+  background-color: #508aa5;
+  color: white;
+  border-radius: 15px;
+  border: none;
+  height: 4vh;
+  width: 8vw;
+  position: fixed;
+  right: 1rem;
+  top: 4.5rem;
+}

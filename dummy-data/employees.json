@@ -1,0 +1,85 @@
+[
+  {
+    "id": 12345,
+    "name": "Jose",
+    "department": "finance",
+    "email": "jose.jones@finance.com",
+    "phoneNumber": "818-xxx-xxx7",
+    "location": {
+      "address": "3421 Birch Avenue",
+      "city": "Phoenix",
+      "zipcode": "35268"
+    },
+    "hours": "full-time",
+    "picture": "",
+    "password": "emily2024",
+    "isAdmin": false,
+    "adminKey": ""
+  },
+  {
+    "id": 63748,
+    "name": "David",
+    "department": "marketing",
+    "email": "david.brown@marketing.com",
+    "phoneNumber": "626-xxx-xxx3",
+    "location": {
+      "address": "1234 Maple Road",
+      "city": "Los Angeles",
+      "zipcode": "90001"
+    },
+    "hours": "part-time",
+    "picture": "",
+    "password": "marketing123",
+    "isAdmin": false,
+    "adminKey": ""
+  },
+  {
+    "id": 45579,
+    "name": "Sophia",
+    "department": "HR",
+    "email": "sophia.miller@hr.org",
+    "phoneNumber": "415-xxx-xxx8",
+    "location": {
+      "address": "7890 Pine Street",
+      "city": "San Francisco",
+      "zipcode": "94103"
+    },
+    "hours": "full-time",
+    "picture": "",
+    "password": "sophiahr2024",
+    "isAdmin": true,
+    "adminKey": "adminkey2024"
+  },
+  {
+    "name": "James",
+    "department": "engineering",
+    "email": "james.johnson@engineering.com",
+    "phoneNumber": "512-xxx-xxx6",
+    "location": {
+      "address": "5678 Oak Lane",
+      "city": "Austin",
+      "zipcode": "73301"
+    },
+    "hours": "full-time",
+    "picture": "",
+    "password": "engineering2024",
+    "isAdmin": false,
+    "adminKey": ""
+  },
+  {
+    "name": "Ava",
+    "department": "sales",
+    "email": "ava.davis@sales.com",
+    "phoneNumber": "323-xxx-xxx4",
+    "location": {
+      "address": "2468 Cedar Avenue",
+      "city": "San Diego",
+      "zipcode": "92101"
+    },
+    "hours": "part-time",
+    "picture": "",
+    "password": "avapassword123",
+    "isAdmin": false,
+    "adminKey": ""
+  }
+]
